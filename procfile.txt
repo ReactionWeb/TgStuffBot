@@ -1,1 +1,1 @@
-web: gunicorn simplebot:app
+web: gunicorn manage:runserver
