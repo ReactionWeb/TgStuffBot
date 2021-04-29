@@ -1,1 +1,1 @@
-web: gunicorn simlpebot.simlpebot.wsgi --log-file -
+web: gunicorn simlpebot.wsgi --log-file -
