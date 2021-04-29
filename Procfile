@@ -1,1 +1,1 @@
-web: gunicorn simplebot:wsgi --log-file -
+web: gunicorn simlpebot:wsgi --log-file -
