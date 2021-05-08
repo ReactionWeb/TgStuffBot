@@ -1,2 +1,1 @@
-web: gunicorn simlpebot.wsgi &&
-web1: cd simlpebot && cd bot && python echo_bot.py
+web: gunicorn simlpebot.wsgi && cd simlpebot && cd bot && gunicorn echo_bot:app
