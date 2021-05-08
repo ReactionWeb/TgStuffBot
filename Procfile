@@ -1,1 +1,1 @@
-web: gunicorn simlpebot.wsgi && gunicorn echo_bot:app
+web: gunicorn simlpebot.wsgi && gunicorn simlpebot.bot.echo_bot:app
